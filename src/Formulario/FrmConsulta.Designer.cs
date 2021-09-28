@@ -33,8 +33,8 @@ namespace NetZ.Cargo.Formulario
             this.listBox = new System.Windows.Forms.ListBox();
             this.pnlComando = new System.Windows.Forms.Panel();
             this.btnAdicionar = new System.Windows.Forms.Button();
-            this.btnAlterar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAlterar = new System.Windows.Forms.Button();
             this.pnlLista.SuspendLayout();
             this.pnlComando.SuspendLayout();
             this.SuspendLayout();
@@ -82,17 +82,6 @@ namespace NetZ.Cargo.Formulario
             this.btnAdicionar.UseVisualStyleBackColor = true;
             this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
-            // btnAlterar
-            // 
-            this.btnAlterar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnAlterar.Location = new System.Drawing.Point(705, 5);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(75, 30);
-            this.btnAlterar.TabIndex = 1;
-            this.btnAlterar.Text = "Adicionar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
-            // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
@@ -100,6 +89,17 @@ namespace NetZ.Cargo.Formulario
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(10, 30);
             this.panel1.TabIndex = 2;
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAlterar.Location = new System.Drawing.Point(705, 5);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(75, 30);
+            this.btnAlterar.TabIndex = 1;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // FrmConsulta
             // 
