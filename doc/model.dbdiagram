@@ -1,0 +1,34 @@
+table usuario {
+  id int [pk]
+  login text
+  senha text
+}
+
+table motorista {
+  id int [pk]
+  nome text
+  cnh text
+}
+
+table fabricante {
+  id int [pk]
+  nome text
+}
+
+table veiculo {
+  id int [pk]
+  modelo text
+  placa text
+  ano int
+  fabricante_id int [ref: > fabricante.id]
+}
+
+table viagem {
+  id int [pk]
+  origem text
+  destino text
+  saida datetime
+  chegada datetime
+  veiculo_id int [ref: > veiculo.id]
+  motorista_id int [ref: > motorista.id]
+}

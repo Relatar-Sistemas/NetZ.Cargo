@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetZ.Cargo", "src\NetZ.Cargo.csproj", "{2D3045AD-5091-4ADC-9C0F-F4DD0F5C9B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D3045AD-5091-4ADC-9C0F-F4DD0F5C9B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3045AD-5091-4ADC-9C0F-F4DD0F5C9B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3045AD-5091-4ADC-9C0F-F4DD0F5C9B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3045AD-5091-4ADC-9C0F-F4DD0F5C9B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F8D047-4065-44E9-B15A-4FB5C763553F}
+	EndGlobalSection
+EndGlobal
